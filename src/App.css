@@ -34,7 +34,7 @@ h1{
 .wrapper{
   width: 100%;
 
-  background-color: red;
+
 }
 
 .info{
@@ -42,7 +42,7 @@ h1{
   height:200px;
   display: flex;
   justify-content: space-around;
-  background-color: seagreen;
+
 }
 
 input{
@@ -54,7 +54,7 @@ input{
 
 .options{
   width: 100%;
-  background-color:violet;
+ 
   display: flex;
   justify-content: space-around;
 }
@@ -63,10 +63,16 @@ select{
   font-size: 1vw;
 }
  
+
+.card{
+  width: 100%;
+  display: flex;
+}
+
 .rules{
   display: flex;
   align-items: center;
-  background-color: thistle;
+ 
   flex-direction: column;
 }
 
