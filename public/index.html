@@ -3,58 +3,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../src/App.css">
-    <script src="../src/index.js"></script>
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     
     <title>React App</title>
   </head>
   <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    
-    <div class="wrapper">
-      <div class="info">
-        <form id="user_form">
-          <input  type="text" name="first_name" value="" placeholder="Enter your first name..." form="data"  required>
-          <input  type="text" name="last_name" value="" placeholder="Enter your second name..." form="data"  required>
-          <input  type="email" name="email" value="" placeholder="Enter your email..." form="data"  required>
-        </form>
-      </div>
-      <div class="options">
-        <h3>Choose difficulty</h3>
-          <select>
-            <option>easy(5 columsx 4 rows)</option>
-            <option>medium(6x6)</option>
-            <option>hard(8x8)</option>
-        </select>
-      </div>
-      <div class="cards">
-        <h3>Choose card shits</h3>
-          <ul>
-           <li >
-            <img class="image"  src="../img/Card_back-Classic.png" alt="option 1">
-          </li>
-          <li>
-            <img class="image" src="../img/Card_back-Legend.png" alt="option 2">
-          </li>
-          <li>
-            <img class="image" src="../img/Card_back-Random.png" alt="option 3">
-          </li>
-        </ul>
-      </div>
-  <div class="rules">
-     <h2>Rules</h2>
-      <p> Matching games are games that require players to match similar elements. 
-        Participants need to find a match for a picture, or card. For example,composed of 15 pairs, face down in random order.
-        A Match: A player makes a match if the two cards turned picture-side-up are identical.
-        A Miss: A player misses if the two cards turned over are not identical.
-        When a player misses, he or she turns the two cards picture-side-down again, in the same place.
-     </p>
-     <button class="btn">START GAME</button>
-  </div>
-  
-
-  </div>
-  
+   
   </body>
 </html>
